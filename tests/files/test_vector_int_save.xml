@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	<field name="vector">
+		<field name="element1">23</field>
+		<field name="element2">62</field>
+		<field name="element3">193</field>
+		<field name="element4">1</field>
+	</field>
+</config>

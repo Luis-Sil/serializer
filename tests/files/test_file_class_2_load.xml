@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!--element 4 -> class name -->
+    <field name='c'>
+        <field name='s'>1</field>
+        <field name='v'>
+            <field name='str'>first</field>
+            <field name='str'>second</field>
+            <field name='str'>third</field>
+        </field>
+        <field name='v'>
+            <field name='v'>
+                <field name='c'>
+                    <!--element 4.1 -> scalar name -->
+                    <field name='s'>1</field>
+                    <!--element 4.2 -> scalar name -->
+                    <field name='str'>hello</field>
+                    <!--element 4.3 -> scalar name -->
+                    <field name='s'>3.16</field>
+                </field>
+                <field name='c'>
+                    <!--element 4.1 -> scalar name -->
+                    <field name='s'>2</field>
+                    <!--element 4.2 -> scalar name -->
+                    <field name='str'>string2</field>
+                    <!--element 4.3 -> scalar name -->
+                    <field name='s'>5.0</field>
+                </field>
+            </field>
+            <field name='v'>
+                <field name='c'>
+                    <!--element 4.1 -> scalar name -->
+                    <field name='s'>34</field>
+                    <!--element 4.2 -> scalar name -->
+                    <field name='str'>goof</field>
+                    <!--element 4.3 -> scalar name -->
+                    <field name='s'>8.0</field>
+                </field>
+                <field name='c'>
+                    <!--element 4.1 -> scalar name -->
+                    <field name='s'>2</field>
+                    <!--element 4.2 -> scalar name -->
+                    <field name='str'>string2</field>
+                    <!--element 4.3 -> scalar name -->
+                    <field name='s'>5.0</field>
+                </field>
+            </field>
+        </field>
+        <field name='s'>2</field>
+        <field name='s'>1</field>
+    </field>
+</config>

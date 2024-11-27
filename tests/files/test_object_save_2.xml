@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+	<field name="class">
+		<field name="class">
+			<field name="field1">2</field>
+			<field name="field2">
+				<field name="element1">you</field>
+				<field name="element2">do</field>
+				<field name="element3">you</field>
+			</field>
+			<field name="field3">
+				<field name="class">
+					<field name="field1">1</field>
+					<field name="field2">1.0</field>
+					<field name="field3">string</field>
+				</field>
+				<field name="class">
+					<field name="field1">4</field>
+					<field name="field2">6.0</field>
+					<field name="field3">string</field>
+				</field>
+				<field name="class">
+					<field name="field1">10</field>
+					<field name="field2">1.65</field>
+					<field name="field3">hello</field>
+				</field>
+			</field>
+		</field>
+		<field name="field4">string</field>
+		<field name="field5">1.511</field>
+	</field>
+</config>

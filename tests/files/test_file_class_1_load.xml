@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!--element 4 -> class type -->
+    <field name='class'>
+        <!--element 4.1 -> scalar type -->
+        <field type='field1'>1</field>
+        <!--element 4.2 -> scalar type -->
+        <field type='field2'>hello</field>
+        <!--element 4.3 -> scalar type -->
+        <field type='field3'>3.16</field>
+    </field>
+</config>

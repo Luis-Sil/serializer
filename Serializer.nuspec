@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+	<metadata>
+		<id>Serializer</id>
+		<version>2.0.0-local003</version>
+		<title>Serializer</title>
+		<authors>Strix</authors>
+		<owners>Strix</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>C++ object serializer (DLL). Currently supports only serializations to xml.</description>
+		<tags>native</tags>
+	</metadata>
+	<files>
+		<file src="Serializer.targets" target="build"/>
+		<file src="*.h" target="include"/>
+		<file src="..\..\build\bin\Serializer\x64\Release\Serializer.dll" target="build\lib\x64\Release"/>
+		<file src="..\..\build\bin\Serializer\x64\Debug\Serializer.dll" target="build\lib\x64\Debug"/>
+		<file src="..\..\build\bin\Serializer\x64\Release\Serializer.lib" target="build\lib\x64\Release"/>
+		<file src="..\..\build\bin\Serializer\x64\Debug\Serializer.lib" target="build\lib\x64\Debug"/>
+		<file src="..\..\build\bin\Serializer\x64\Debug\Serializer.pdb" target="build\lib\x64\Debug"/>
+	</files>
+</package>

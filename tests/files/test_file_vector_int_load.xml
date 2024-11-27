@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!--element 1 -> vector name -->
+    <field name='v'>
+        <field name='s'>1</field>
+        <field name='s'>2</field>
+        <field name='s'>3</field>
+    </field>
+</config>

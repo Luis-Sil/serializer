@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+	<field type="class">
+		<field type="s">3</field>
+		<field type="s">9.212</field>
+		<field type="vecstr">
+			<field type="str">bad</field>
+			<field type="str">boy</field>
+			<field type="str">what</field>
+			<field type="str">you</field>
+			<field type="str">gonna</field>
+			<field type="str">do</field>
+		</field>
+		<field type="s">1</field>
+		<field type="vec">
+			<field type="vec">
+				<field type="s">0</field>
+				<field type="s">2</field>
+				<field type="s">0</field>
+			</field>
+			<field type="vec">
+				<field type="s">2</field>
+				<field type="s">1</field>
+				<field type="s">0</field>
+			</field>
+		</field>
+	</field>
+</config>

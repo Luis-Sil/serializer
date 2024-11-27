@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!--element 1 -> vector name -->
+    <field name='v'>
+        <field name='class'>
+            <field name='s'>1</field>
+            <field name='str'>this</field>
+            <field name='s'>1.0</field>
+        </field>
+        <field name='class'>
+            <field name='s'>2</field>
+            <field name='str'>that</field>
+            <field name='s'>2.0</field>
+        </field>
+        <field name='class'>
+            <field name='s'>3</field>
+            <field name='str'>thus</field>
+            <field name='s'>3.0</field>
+        </field>
+    </field>
+</config>

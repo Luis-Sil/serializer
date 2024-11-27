@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<!--Set property $(Configuration-serializer)-->
+	<PropertyGroup>
+		<Configuration-serializer Condition ="$(Configuration.ToLower().IndexOf('debug')) != -1">Debug</Configuration-serializer>
+		<Configuration-serializer Condition ="$(Configuration.ToLower().IndexOf('debug')) == -1">Release</Configuration-serializer>
+	</PropertyGroup>
+	<!--Add import file to dependencies-->
+	<ItemDefinitionGroup>
+		<ClCompile>
+			<AdditionalIncludeDIrectories>$(MSBuildThisFileDirectory)..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDIrectories>
+		</ClCompile>
+		<Link>
+			<AdditionalDependencies>$(MSBuildThisFileDirectory)lib\$(Platform)\$(Configuration-serializer)\Serializer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+		</Link>
+	</ItemDefinitionGroup>
+	<!--Copy dll to output folder-->
+	<ItemGroup>
+		<None Include="$(MSBuildThisFileDirectory)lib\x64\$(Configuration-serializer)\Serializer.dll">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+</Project>

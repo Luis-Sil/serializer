@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <field type='c'>
+        <field type='s'>
+            <data>1</data>
+        </field>
+        <field type='s'>
+            <data>1.2</data>
+        </field>
+        <field type='v'>
+            <field type='str'>
+                <data>hello</data>
+            </field>
+            <field type='str'>
+                <data>from</data>
+            </field>
+            <field type='str'>
+                <data>here</data>
+            </field>
+        </field>
+        <field type='s'>
+            <data>1</data>
+        </field>
+        <field type='v_v'>
+            <field type='v'>
+                <field type='s'>
+                    <data>wrong</data>
+                </field>
+                <field type='s'>
+                    <data>0</data>
+                </field>
+                <field type='s'>
+                    <data>0</data>
+                </field>
+            </field>
+            <field type='v'>
+                <field type='s'>
+                    <data>1</data>
+                </field>
+                <field type='s'>
+                    <data>1</data>
+                </field>
+                <field type='s'>
+                    <data>1</data>
+                </field>
+            </field>
+        </field>
+    </field>
+</config>

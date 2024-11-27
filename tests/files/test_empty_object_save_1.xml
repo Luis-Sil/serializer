@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+	<field name="class">
+		<field name="field1"> </field>
+		<field name="field2">
+			<field name="field1"> </field>
+		</field>
+		<field name="field3">
+			<field name="field1"> </field>
+		</field>
+		<field name="field4"> </field>
+	</field>
+</config>

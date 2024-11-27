@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config>
+	<field name="vector">
+		<field name="class">
+			<field name="field1">1.0</field>
+			<field name="field 2">string with spaces</field>
+			<field name="field3">
+				<field name="field1">1.0</field>
+				<field name="field2">2.0</field>
+				<field name="field3">3.0</field>
+			</field>
+		</field>
+	</field>
+</config>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+	<field name="vector">
+		<field name="vector">
+			<field name="element1">hello</field>
+			<field name="element2">from</field>
+			<field name="element3">here</field>
+		</field>
+		<field name="vector">
+			<field name="element1">goodbye</field>
+			<field name="element2">from</field>
+			<field name="element3">here</field>
+		</field>
+	</field>
+</config>
